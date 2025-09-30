@@ -22,7 +22,7 @@ void setup() {
   Serial.println("ESP32 WiFi Configuration via Bluetooth");
   
   // Start Bluetooth
-  SerialBT.begin("ESP32_Config"); // Bluetooth device name
+  SerialBT.begin("TDD access point"); // Bluetooth device name
   Serial.println("Bluetooth Started! Device name: ESP32_Config");
   SerialBT.println("ESP32 WiFi Configuration");
   SerialBT.println("Commands:");
